@@ -19,9 +19,9 @@ Algoritmo TresEnRaya
 	juegoEnCurso = Verdadero
 	Mientras X <= 9 y juegoEnCurso Hacer
 		Escribir "Ingresa una posicion jugador", Jugador 
-		Escribir "_,_,_", "           ", Vector[1,1], "," , Vector[1,2], ",", Vector[1,3]
-		Escribir "_,_,_", "           ", Vector[2,1], "," , Vector[2,2], ",", Vector[2,3]
-		Escribir "_,_,_", "           ", Vector[3,1], "," , Vector[3,2], ",", Vector[3,3]
+		Escribir Vector[1,1], "," , Vector[1,2], ",", Vector[1,3]
+		Escribir Vector[2,1], "," , Vector[2,2], ",", Vector[2,3]
+		Escribir Vector[3,1], "," , Vector[3,2], ",", Vector[3,3]
 		Escribir "escribe una coordenada:"
 		Leer coordenada
 		Posicion[1]  = convertiranumero(subcadena(coordenada, 1, 1));
@@ -91,7 +91,7 @@ Algoritmo TresEnRaya
 		X = X + 1
 	FinMientras
 	//Mostrar el tablero con el resultado Final
-	Escribir "_,_,_", "           ", Vector[1,1], "," , Vector[1,2], ",", Vector[1,3]
-	Escribir "_,_,_", "           ", Vector[2,1], "," , Vector[2,2], ",", Vector[2,3]
-	Escribir "_,_,_", "           ", Vector[3,1], "," , Vector[3,2], ",", Vector[3,3]
+	Escribir Vector[1,1], "," , Vector[1,2], ",", Vector[1,3]
+	Escribir Vector[2,1], "," , Vector[2,2], ",", Vector[2,3]
+	Escribir Vector[3,1], "," , Vector[3,2], ",", Vector[3,3]
 FinAlgoritmo
