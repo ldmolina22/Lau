@@ -32,7 +32,7 @@ Algoritmo TresEnRaya
 				Si Vector[Posicion[1],Posicion[2]] == " " Entonces
 					Vector[Posicion[1],Posicion[2]] = "X"
 					Jugador = 2
-					// Check for win conditions for player 1
+					
 					Para F = 1 Hasta 3 Con Paso 1 Hacer
 						Si Vector[F,1] = Vector[F,2] y Vector[F,2] = Vector[F,3] y Vector[F,1] <> " " Entonces
 							Escribir "El jugador", Jugador, "ha ganado"
@@ -54,7 +54,7 @@ Algoritmo TresEnRaya
 						juegoEnCurso = Falso
 					FinSi
 				SiNo
-					Escribir "Esa PosiciÛn Est· Ocupada"
+					Escribir "Esa Posici√≥n Est√° Ocupada"
 				FinSi
 			SiNo
 				Si Vector[Posicion[1],Posicion[2]] == " " Entonces
@@ -81,11 +81,11 @@ Algoritmo TresEnRaya
 						juegoEnCurso = Falso
 					FinSi
 				SiNo
-					Escribir "Esa PosiciÛn Est· Ocupada"
+					Escribir "Esa Posici√≥n Est√° Ocupada"
 				FinSi
 			FinSi
 		SiNo 
-			Escribir "PosisiÛn Incorrecta";
+			Escribir "Posisi√≥n Incorrecta";
 		FinSi
 		X = X + 1
 	FinMientras
